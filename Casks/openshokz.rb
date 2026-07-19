@@ -5,7 +5,7 @@
 # works, and pin `sha256` to the released DMG (shasum -a 256 dist/OpenShokz-*.dmg).
 cask "openshokz" do
   version "1.0.0"
-  sha256 :no_check # TODO: pin per release
+  sha256 "91f80790b37e3302dcd7f1d74f21310602aca40da309dbd8be6527af7be9aff1"
 
   url "https://github.com/DanielSinclair/openshokz/releases/download/v#{version}/OpenShokz-#{version}.dmg"
   name "OpenShokz"
