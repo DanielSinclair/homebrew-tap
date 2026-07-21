@@ -2,12 +2,12 @@
 #
 # Publish this file to the DanielSinclair/homebrew-tap repo (Casks/openshokz.rb)
 # as part of each release so `brew install --cask danielsinclair/tap/openshokz`
-# works, and pin `sha256` to the released DMG (shasum -a 256 dist/OpenShokz-*.dmg).
+# works, and update `sha256` per release (shasum -a 256 dist/OpenShokz.dmg).
 cask "openshokz" do
   version "1.0.0"
-  sha256 "91f80790b37e3302dcd7f1d74f21310602aca40da309dbd8be6527af7be9aff1"
+  sha256 "0dc340d49399face943c69c9a32592e8a9ab51ebab892991d83fd6a4e0d07dd0"
 
-  url "https://github.com/DanielSinclair/openshokz/releases/download/v#{version}/OpenShokz-#{version}.dmg"
+  url "https://github.com/DanielSinclair/openshokz/releases/download/v#{version}/OpenShokz.dmg"
   name "OpenShokz"
   desc "Download YouTube videos and podcasts to Shokz"
   homepage "https://danielsinclair.github.io/openshokz/"
