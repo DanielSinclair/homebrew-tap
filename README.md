@@ -22,3 +22,4 @@ brew install --cask danielsinclair/tap/openshokz
 | Name | Description |
 |------|-------------|
 | [`openshokz`](Casks/openshokz.rb) | Download YouTube videos and podcasts to Shokz |
+| [`ytm-mac`](Casks/ytm-mac.rb) | Minimal native wrapper for music.youtube.com (unofficial YouTube Music app) |
