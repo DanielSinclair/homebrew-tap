@@ -2,8 +2,8 @@ cask "ytm-mac" do
   arch arm: "arm64", intel: "universal"
 
   version "0.1.0"
-  sha256 arm:   "1cf28a9f80f71e2197794e80099c6270f5bc9d7059f46800314faf06a961bac7",
-         intel: "a8cdefc62f891341cc475170de3e73e69a5f2637b6af9dbc6de56b3df41d1654"
+  sha256 arm:   "084d23faadfd159d96678f8e77ac0734d90615295f1a36b2fcc17e20b4c4a98a",
+         intel: "2c46a91644d1eaf93f7ba3be3a0bc3085e2d42f35062253f644342c76a827189"
 
   url "https://github.com/DanielSinclair/ytm-mac/releases/download/v#{version}/ytm-mac-#{version}-#{arch}.zip"
   name "YouTube Music"
