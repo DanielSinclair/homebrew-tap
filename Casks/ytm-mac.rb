@@ -6,7 +6,7 @@ cask "ytm-mac" do
          intel: "2c46a91644d1eaf93f7ba3be3a0bc3085e2d42f35062253f644342c76a827189"
 
   url "https://github.com/DanielSinclair/ytm-mac/releases/download/v#{version}/ytm-mac-#{version}-#{arch}.zip"
-  name "YouTube Music"
+  name "ytm-mac"
   desc "Minimal native music player shell"
   homepage "https://github.com/DanielSinclair/ytm-mac"
 
