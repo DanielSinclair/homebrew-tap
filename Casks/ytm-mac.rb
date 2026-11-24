@@ -7,7 +7,7 @@ cask "ytm-mac" do
 
   url "https://github.com/DanielSinclair/ytm-mac/releases/download/v#{version}/ytm-mac-#{version}-#{arch}.zip"
   name "YouTube Music"
-  desc "Minimal native wrapper for music.youtube.com"
+  desc "Minimal native music player shell"
   homepage "https://github.com/DanielSinclair/ytm-mac"
 
   livecheck do
