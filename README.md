@@ -4,17 +4,19 @@ Shared [Homebrew](https://brew.sh) tap for [my](https://danielsinclair.me) proje
 
 ## Usage
 
-Add the tap once, then install anything from it:
+Add and trust the tap once (Homebrew 7+ refuses third-party taps until you trust them), then install anything from it:
 
 ```sh
 brew tap danielsinclair/tap
-brew install --cask openshokz
+brew trust danielsinclair/tap
+brew install --cask ytm-mac
 ```
 
-Or install directly without tapping first:
+Or trust and install a single cask directly:
 
 ```sh
-brew install --cask danielsinclair/tap/openshokz
+brew trust --cask danielsinclair/tap/ytm-mac
+brew install --cask danielsinclair/tap/ytm-mac
 ```
 
 ## Casks
