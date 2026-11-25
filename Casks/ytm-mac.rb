@@ -2,8 +2,8 @@ cask "ytm-mac" do
   arch arm: "arm64", intel: "universal"
 
   version "0.1.0"
-  sha256 arm:   "084d23faadfd159d96678f8e77ac0734d90615295f1a36b2fcc17e20b4c4a98a",
-         intel: "2c46a91644d1eaf93f7ba3be3a0bc3085e2d42f35062253f644342c76a827189"
+  sha256 arm:   "a52b989edf1f5da5c365dcbdd78d6a4ffcb0f5c80830afeed344640c328f1e0b",
+         intel: "ff974831bd701d62186cc5e155a1cc5aa30184be09ef42556aaf929f8a641a39"
 
   url "https://github.com/DanielSinclair/ytm-mac/releases/download/v#{version}/ytm-mac-#{version}-#{arch}.zip"
   name "ytm-mac"
